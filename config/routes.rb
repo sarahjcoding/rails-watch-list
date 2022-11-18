@@ -6,10 +6,10 @@ Rails.application.routes.draw do
   end
 
   resources :bookmarks, only: [:destroy]
-  # Defines the root path route ("/")
-  # root "articles#index"
-end
 
+
+end
+  # Defines the root path route ("/")
 # get "tasks", to: "tasks#index"
 #   post "tasks", to: "tasks#create"
 #   get "tasks/new", to: "tasks#new", as: :new_task

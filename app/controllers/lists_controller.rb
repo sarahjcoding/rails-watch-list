@@ -19,9 +19,10 @@ class ListsController < ApplicationController
     redirect_to list_path(@list)
     end
   end
+
 private
 
   def list_params
-    params.require(:list).permit(:name)
+    params.require(:list).permit(:name, :photo)
   end
 end
